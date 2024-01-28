@@ -1,6 +1,6 @@
 ## Introduction
 
-* This repository is for [Junghwan Park's profile page](https://9bow.io)
+* This repository is for [Musaab Imran's profile page](https://musaabimran.github.io/)
 
 
 ## Disclaimer
