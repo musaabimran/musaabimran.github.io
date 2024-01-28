@@ -61,13 +61,6 @@ a, a:hover {
   }
 }
 
-.icon-pytorch {
-  display: inline-block;
-  height: 0.9rem;
-  line-height: 1rem;
-  border: 0;
-  filter: invert(0.17) brightness(0.3) sepia(0.3) hue-rotate(180deg) saturate(5);
-}
 
 .profile-card {
   width: 100%;
@@ -89,7 +82,7 @@ a, a:hover {
   overflow: hidden;
   position: relative;
   z-index: 4;
-  background-image: url("/assets/img/jhpark.jpg");
+  background-image: url("/assets/img/musaab.jpg");
   background-position: top center;
   background-size: 280px;
   box-shadow: 5px 5px 30px 5px #7bd5f5, 0px 0px 0px 5px #787ff6;
