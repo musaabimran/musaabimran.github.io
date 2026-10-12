@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Musaab Imran</title>
-<meta name="description" content="Musaab Imran — Software Engineer (AI/Backend) in Islamabad. Recommendation systems, RAG pipelines, fine-tuned language models and secure financial platforms.">
+<meta name="description" content="Musaab Imran — Software Engineer in Islamabad. Recommendation systems, RAG pipelines, fine-tuned language models and secure financial platforms.">
 <meta name="theme-color" content="#eaf2fb">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Musaab Imran — Software Engineer, AI/Backend">
+<meta property="og:title" content="Musaab Imran — Software Engineer">
 <meta property="og:description" content="Recommendation systems, RAG pipelines, fine-tuned language models and secure financial platforms.">
 <meta property="og:url" content="https://musaabimran.github.io/">
 <meta name="twitter:card" content="summary">
@@ -179,6 +179,7 @@ section{padding:100px 0}
 
 /* skills */
 .skillgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.skill.wide{grid-column:span 2}
 .skill{border:1px solid var(--line);border-radius:16px;padding:22px 24px;background:var(--card);box-shadow:var(--shadow)}
 .skill h3{font-family:var(--mono);font-size:.75rem;font-weight:500;color:var(--accent);letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
 .skill .chips{margin-top:0}
@@ -239,7 +240,7 @@ section{padding:100px 0}
   section{padding:68px 0}
   .about-text p{font-size:1.06rem;line-height:1.65}
   .projects,.skillgrid,.edu-cols{grid-template-columns:1fr}
-  .proj.wide{grid-column:auto}
+  .proj.wide,.skill.wide{grid-column:auto}
   .gpa{text-align:left}
   .scroll{display:none}
   .edu{padding:24px}
@@ -268,7 +269,7 @@ section{padding:100px 0}
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a class="resume" href="https://drive.google.com/file/d/1a-_aGlYFwy_JtO_kdGNJ4_NI6Gag2jkn/view?usp=sharing" target="_blank" rel="noopener">Résumé</a>
+      <a class="resume" href="https://drive.google.com/file/d/1TJKCJ9eQC1SJHDV2ICRwU3V6EaMqF_Ao/view?usp=sharing" target="_blank" rel="noopener">Résumé</a>
       <button class="burger" id="burger" aria-label="Open section menu" aria-expanded="false" aria-controls="menu">
         <svg class="b" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
         <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
@@ -300,7 +301,7 @@ section{padding:100px 0}
       <h2>About</h2>
     </div>
     <div class="about-text">
-      <p class="rv">I'm a software engineer focused on <b>AI and backend systems</b> — recommendation engines, RAG-based pipelines, LLM integration and cloud-native development — building data-driven solutions that make a meaningful impact.</p>
+      <p class="rv">I'm a software engineer experienced in building <b>enterprise-grade applications</b>, with proven experience delivering real-time ML systems, recommendation engines and RAG-based pipelines. I'm adept in cloud-native development, LLM integration and data-centric problem solving, and passionate about building scalable AI systems that solve real-world challenges.</p>
       <p class="rv">I'm currently at <b>Avirso</b>, building AI and backend systems for fintech and enterprise finance. Before that I was a machine learning engineer at <b>Brain Box Automations</b>. My journey in technology began with <b>cybersecurity at FAST University</b>, but I found my true calling at the intersection of artificial intelligence and real-world problem solving.</p>
       <p class="rv">My work spans recommendation systems, natural language processing, computer vision and cloud infrastructure. I've contributed to open source through <b>Google Summer of Code</b> and been recognized for enhancing security in educational platforms.</p>
       <p class="rv">When I'm not coding, I explore the latest developments in AI research, contribute to the tech community and experiment with new AI tools. I believe in the power of technology to create positive change, and I'm always excited to work on projects with meaningful impact.</p>
@@ -319,7 +320,7 @@ section{padding:100px 0}
     <div class="timeline">
       <article class="job now rv">
         <div class="when">2025 — Present</div>
-        <h3>Software Engineer II, AI/Backend</h3>
+        <h3>Software Engineer II</h3>
         <div class="co">Avirso <span>· Islamabad, Pakistan</span></div>
         <ul>
           <li>Co-developed a solution for a <b>top-tier fintech company in Pakistan</b>, optimizing core transaction infrastructure and ensuring local compliance.</li>
@@ -463,12 +464,19 @@ section{padding:100px 0}
       <h2>Technical skills</h2>
     </div>
     <div class="skillgrid">
-      <div class="skill rv"><h3>Programming languages</h3><div class="chips"><span>Python</span><span>C/C++</span><span>Go</span><span>C#</span><span>JavaScript</span><span>SQL</span><span>MATLAB</span></div></div>
-      <div class="skill rv"><h3>Machine learning &amp; AI</h3><div class="chips"><span>TensorFlow</span><span>PyTorch</span><span>Scikit-learn</span><span>Transformers</span><span>OpenCV</span><span>Statsmodels</span><span>Unsloth</span></div></div>
-      <div class="skill rv"><h3>Cloud platforms</h3><div class="chips"><span>AWS (SageMaker, Personalize, Lambda)</span><span>GCP (Vertex AI, AI Studio)</span><span>Firebase</span><span>Docker</span><span>Terraform</span><span>CloudFormation</span></div></div>
-      <div class="skill rv"><h3>RAG &amp; LLM tools</h3><div class="chips"><span>LangChain</span><span>LlamaIndex</span><span>LangGraph</span><span>OpenSearch</span><span>Ollama</span><span>Haystack</span></div></div>
+      <div class="skill rv"><h3>Programming languages</h3><div class="chips"><span>Python</span><span>C/C++</span><span>Go</span><span>C#</span><span>SQL</span><span>JavaScript</span><span>MATLAB</span></div></div>
+      <div class="skill rv"><h3>Application development</h3><div class="chips"><span>React</span><span>React Native</span><span>Flutter</span><span>Node.js</span><span>Express.js</span><span>Flask</span><span>FastAPI</span><span>Nginx</span><span>.NET</span><span>HTML/CSS</span></div></div>
+      <div class="skill wide rv"><h3>Cloud platforms</h3><div class="chips"><span>AWS Lambda</span><span>EC2</span><span>S3</span><span>SageMaker</span><span>Bedrock</span><span>Personalize</span><span>Forecast</span><span>API Gateway</span><span>CloudFormation</span><span>CloudWatch</span><span>IAM</span><span>DynamoDB</span><span>Rekognition</span><span>Textract</span><span>SQS</span><span>SNS</span><span>CDK</span><span>GCP Vertex AI</span><span>GCP AI Studio</span><span>Firebase</span></div></div>
       <div class="skill rv"><h3>Databases</h3><div class="chips"><span>MongoDB</span><span>PostgreSQL</span><span>MySQL</span><span>Chroma</span><span>FAISS</span><span>Qdrant</span><span>Pinecone</span></div></div>
-      <div class="skill rv"><h3>Development frameworks</h3><div class="chips"><span>React</span><span>Node.js</span><span>FastAPI</span><span>Flask</span><span>Express.js</span><span>.NET</span></div></div>
+      <div class="skill rv"><h3>Libraries</h3><div class="chips"><span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span><span>Seaborn</span><span>Transformers</span><span>Unsloth</span><span>OpenCV</span><span>Pandas</span><span>Statsmodels</span><span>Matplotlib</span></div></div>
+      <div class="skill rv"><h3>RAG</h3><div class="chips"><span>LangChain</span><span>LlamaIndex</span><span>LangGraph</span><span>OpenSearch</span><span>MCP</span><span>Ollama</span><span>Haystack</span><span>Tavily</span><span>Replicate</span><span>Cohere</span></div></div>
+      <div class="skill rv"><h3>Models</h3><div class="chips"><span>GPT</span><span>Claude</span><span>Gemini</span><span>Qwen</span><span>Llama</span><span>Phi</span><span>BERT</span><span>Mistral</span></div></div>
+      <div class="skill rv"><h3>Ops</h3><div class="chips"><span>Git</span><span>Docker</span><span>Airflow</span><span>MLflow</span><span>Terraform</span><span>Bash/Shell</span><span>WSL</span><span>SSH</span><span>Jenkins</span><span>Vagrant</span><span>Weights &amp; Biases (W&amp;B)</span><span>WhyLabs</span><span>Langfuse</span><span>Arize AI</span><span>Guardrails AI</span><span>LLM Guard</span></div></div>
+      <div class="skill rv"><h3>Speech &amp; voice AI</h3><div class="chips"><span>Whisper</span><span>Vapi</span><span>ElevenLabs</span><span>AWS Transcribe</span><span>AWS Polly</span></div></div>
+      <div class="skill rv"><h3>UI</h3><div class="chips"><span>Streamlit</span><span>Gradio</span><span>Figma</span></div></div>
+      <div class="skill rv"><h3>Data visualization</h3><div class="chips"><span>Power BI</span><span>Looker Studio</span></div></div>
+      <div class="skill rv"><h3>Automation tools</h3><div class="chips"><span>Make.com</span><span>n8n</span><span>Webhook.site</span></div></div>
+      <div class="skill rv"><h3>Documentation &amp; markup</h3><div class="chips"><span>LaTeX</span><span>Markdown</span><span>YAML</span><span>JSON</span><span>Jupyter Notebook</span></div></div>
       <div class="skill rv"><h3>Cybersecurity &amp; forensics</h3><div class="chips"><span>Penetration Testing</span><span>Digital Forensics</span><span>Malware Analysis</span><span>Website Security</span><span>Information Security</span><span>Network Security</span><span>Cryptography</span><span>Reverse Engineering</span></div></div>
       <div class="skill rv"><h3>Security tools</h3><div class="chips"><span>Nmap</span><span>Metasploit</span><span>Burp Suite</span><span>Wireshark</span><span>OWASP ZAP</span><span>Snort</span><span>Splunk</span><span>Tenable Nessus</span><span>Nikto</span><span>YARA</span><span>Ghidra</span><span>IDA Pro</span><span>FTK Imager</span><span>EnCase Forensic</span><span>Autopsy</span><span>OSForensics</span><span>Wazuh</span><span>Zeek</span></div></div>
     </div>
@@ -485,7 +493,7 @@ section{padding:100px 0}
     <div class="edu rv">
       <div class="edu-top">
         <div>
-          <span class="when">Aug 2020 — Jul 2024 · Islamabad Campus, Pakistan</span>
+          <span class="when">Aug 2020 — Jun 2024 · Islamabad Campus, Pakistan</span>
           <h3>Bachelor of Science in Cybersecurity</h3>
           <div class="co">FAST National University of Computer and Emerging Sciences</div>
         </div>
