@@ -176,6 +176,9 @@ section{padding:100px 0}
 .proj p{color:var(--muted);font-size:.95rem;margin-top:10px;flex:1;position:relative}
 .proj .chips{position:relative}
 .proj.wide{grid-column:span 2}
+.post .read{position:relative;margin-top:18px;color:var(--accent);font-weight:500;font-size:.95rem}
+.post .read span{display:inline-block;transition:transform .25s}
+.post:hover .read span{transform:translate(2px,-2px)}
 
 /* skills */
 .skillgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
@@ -265,6 +268,7 @@ section{padding:100px 0}
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#writing">Writing</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -456,11 +460,30 @@ section{padding:100px 0}
   </div>
 </section>
 
+<!-- ============ WRITING ============ -->
+<section id="writing">
+  <div class="wrap sec">
+    <div class="sec-label rv">
+      <div class="layer">layer_04</div>
+      <h2>Writing</h2>
+      <p>Articles on building AI responsibly.</p>
+    </div>
+    <div class="projects">
+      <a class="proj wide post rv" href="https://medium.com/@musaabimran2001/responsible-ai-tools-for-observability-traceability-guardrails-f27a33504d84" target="_blank" rel="noopener">
+        <div class="meta"><span class="num">Medium · Jul 2025 · 10 min read</span><span class="area">responsible ai</span></div>
+        <h3>Responsible AI: Tools for Observability, Traceability, &amp; Guardrails</h3>
+        <p>A guide to observing, tracing and guarding LLM applications across their lifecycle, covering OpenTelemetry, Langfuse, LangSmith, Comet, Arize AI, WhyLabs + LangKit, Vertex AI, AWS Bedrock, LlamaFirewall, Guardrails AI and LLM Guard.</p>
+        <div class="read">Read on Medium <span aria-hidden="true">↗</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- ============ SKILLS ============ -->
 <section id="skills">
   <div class="wrap sec">
     <div class="sec-label rv">
-      <div class="layer">layer_04</div>
+      <div class="layer">layer_05</div>
       <h2>Technical skills</h2>
     </div>
     <div class="skillgrid">
@@ -487,7 +510,7 @@ section{padding:100px 0}
 <section id="education">
   <div class="wrap sec">
     <div class="sec-label rv">
-      <div class="layer">layer_05</div>
+      <div class="layer">layer_06</div>
       <h2>Education</h2>
     </div>
     <div class="edu rv">
@@ -538,6 +561,7 @@ section{padding:100px 0}
         musaabimran2001@gmail.com</a>
       <a class="btn btn-ghost" href="https://www.linkedin.com/in/musaabimran/" target="_blank" rel="noopener">LinkedIn</a>
       <a class="btn btn-ghost" href="https://github.com/musaabimran" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="https://medium.com/@musaabimran2001" target="_blank" rel="noopener">Medium</a>
     </div>
   </div>
 </section>
