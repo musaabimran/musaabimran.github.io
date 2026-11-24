@@ -176,6 +176,13 @@ section{padding:100px 0}
 .proj p{color:var(--muted);font-size:.95rem;margin-top:10px;flex:1;position:relative}
 .proj .chips{position:relative}
 .proj.wide{grid-column:span 2}
+.org{display:flex;align-items:center;gap:28px;border:1px solid var(--line);border-radius:18px;padding:28px;background:var(--card);box-shadow:var(--shadow)}
+.org-logo{flex:none;width:120px;height:120px;border-radius:16px;background:#fff;display:grid;place-items:center;padding:10px;border:1px solid var(--line)}
+.org-logo img{width:100%;height:100%;object-fit:contain;display:block}
+.org h3{font-family:var(--head);font-size:1.35rem;font-weight:600;letter-spacing:-.02em}
+.org .co{color:var(--soft);margin-top:2px}
+.org .co span{color:var(--faint)}
+.org p{color:var(--muted);margin-top:10px;font-size:.96rem}
 .post .read{position:relative;margin-top:18px;color:var(--accent);font-weight:500;font-size:.95rem}
 .post .read span{display:inline-block;transition:transform .25s}
 .post:hover .read span{transform:translate(2px,-2px)}
@@ -245,6 +252,8 @@ section{padding:100px 0}
   .projects,.skillgrid,.edu-cols{grid-template-columns:1fr}
   .proj.wide,.skill.wide{grid-column:auto}
   .gpa{text-align:left}
+  .org{flex-direction:column;align-items:flex-start;gap:18px;padding:24px}
+  .org-logo{width:96px;height:96px}
   .scroll{display:none}
   .edu{padding:24px}
 }
@@ -544,6 +553,24 @@ section{padding:100px 0}
             <li>Active participation in coding competitions, capture the flag (CTF) challenges and cybersecurity events</li>
           </ul>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMMUNITY ============ -->
+<section id="community">
+  <div class="wrap sec">
+    <div class="sec-label rv">
+      <div class="layer">layer_07</div>
+      <h2>Community</h2>
+    </div>
+    <div class="org rv">
+      <div class="org-logo"><img src="assets/global-shapers-islamabad.png" alt="Global Shapers Community Islamabad logo" width="356" height="356" loading="lazy"></div>
+      <div>
+        <h3>Global Shapers Community</h3>
+        <div class="co">Islamabad Hub <span>· World Economic Forum</span></div>
+        <p>A World Economic Forum initiative bringing together young people who drive dialogue, action and change in their communities.</p>
       </div>
     </div>
   </div>
